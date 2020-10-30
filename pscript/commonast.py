@@ -16,7 +16,7 @@ from __future__ import print_function, absolute_import
 import sys
 import ast
 import json
-from base64 import encodestring as encodebytes, decodestring as decodebytes
+from base64 import encodebytes, decodebytes
 
 pyversion = sys.version_info
 NoneType = None.__class__
